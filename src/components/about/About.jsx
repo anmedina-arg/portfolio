@@ -32,13 +32,12 @@ function About() {
               <h5>Testing</h5>
               <small>to test</small>
             </article>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
-              qui dolorum animi ut beatae quo magni delectus aspernatur tempore!
-              Natus nam quo perferendis amet nobis earum quidem velit iure
-              suscipit!
-            </p>
           </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam qui
+            dolorum animi ut beatae quo magni delectus aspernatur tempore! Natus
+            nam quo perferendis amet nobis earum quidem velit iure suscipit!
+          </p>
           <a href="#contact" className="btn btn-primary">
             Let´s talk
           </a>
