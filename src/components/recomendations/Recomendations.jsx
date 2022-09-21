@@ -1,5 +1,5 @@
 import React from "react";
-import "./testimonials.css";
+import "./recomendations.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Navigation } from "swiper";
 // Import Swiper styles
@@ -12,9 +12,8 @@ import CATA from "../../assets/Cata.png";
 import NICO from "../../assets/Nico.jpg";
 import ADRIAN from "../../assets/Adrian.jpeg";
 import GIAN from "../../assets/Gian.jpg";
-import PRINT from "../../assets/Testimonial.bmp";
 
-function Testimonials() {
+function Recomendations() {
   //vamos a generar un array con los comentarios, como en el componente portfolio con los proyectos
 
   const reviews = [
@@ -53,17 +52,11 @@ function Testimonials() {
       review:
         "Tuve la suerte de conocer a Andres en el bootcamp de Henry, la verdad que es uno de los que más compañero fue, siempre dispuesto a ayudar a todo el equipo, es un Developer con todas las letras.",
     },
-    {
-      id: 4,
-      avatar: GIAN,
-      name: "Gianfranco Gobbi",
-      review: PRINT,
-    },
   ];
   return (
-    <section id="testimonials">
+    <section id="recomendations">
       <h5>Some references</h5>
-      <h2>Testimonials</h2>
+      <h2>Recomendations</h2>
       <Swiper
         slidesPerView={1}
         spaceBetween={50}
@@ -74,7 +67,7 @@ function Testimonials() {
         navigation={true}
         modules={[Pagination, Navigation]}
         // className="mySwiper"
-        className="container testimonials__container"
+        className="container recomendations__container"
       >
         {reviews.map(({ id, avatar, name, review }) => {
           return (
@@ -92,4 +85,4 @@ function Testimonials() {
   );
 }
 
-export default Testimonials;
+export default Recomendations;

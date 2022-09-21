@@ -1,6 +1,8 @@
 import React from "react";
 import "./portfolio.css";
-import ME from "../../assets/me.jpeg";
+import PICountry from "../../assets/PI-Country.jpg";
+import Ecommerce from "../../assets/Ecommerce.jpg";
+import MyPortfolio from "../../assets/Portfolio.jpg";
 
 //vamos a tener los proyectos en un array de objetos, donde cada objeto va a ser un projecto
 //esto es para tener limpieza en el código
@@ -9,32 +11,32 @@ import ME from "../../assets/me.jpeg";
 const projects = [
   {
     id: 1,
-    image: ME,
+    image: PICountry,
     title: "first project",
     github: "http://github.com",
-    demo: "http://dribbble.com/Alien_pixels",
+    demo: "https://www.youtube.com/watch?v=2mivlbmIUsA&t=6s",
   },
   {
     id: 2,
-    image: ME,
+    image: Ecommerce,
     title: "second project",
     github: "http://github.com",
     demo: "http://dribbble.com/Alien_pixels",
   },
   {
     id: 3,
-    image: ME,
+    image: MyPortfolio,
     title: "thirth project",
     github: "http://github.com",
     demo: "http://dribbble.com/Alien_pixels",
   },
-  {
-    id: 4,
-    image: ME,
-    title: "fourth project",
-    github: "http://github.com",
-    demo: "http://dribbble.com/Alien_pixels",
-  },
+  // {
+  //   id: 4,
+  //   image: PICountry,
+  //   title: "fourth project",
+  //   github: "http://github.com",
+  //   demo: "http://dribbble.com/Alien_pixels",
+  // },
 ];
 
 function Portfolio() {

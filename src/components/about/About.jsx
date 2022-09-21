@@ -19,12 +19,16 @@ function About() {
           <div className="about__cards">
             <article className="about__card">
               <TbAward className="about__icon" />
-              <h5>Experience</h5>
+              <a href="#experience">
+                <h5>Experience</h5>
+              </a>
               <small>+700 hs bootcamp</small>
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
-              <h5>Projects</h5>
+              <a href="#portfolio">
+                <h5>Projects</h5>
+              </a>
               <small>3 Complete</small>
             </article>
             <article className="about__card">
@@ -34,9 +38,15 @@ function About() {
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam qui
-            dolorum animi ut beatae quo magni delectus aspernatur tempore! Natus
-            nam quo perferendis amet nobis earum quidem velit iure suscipit!
+            I am a proactive and responsible person. I like new challenges,
+            research, study and learn new things. This has led me to train as a
+            Full Stack Developer with main stack JavaScript and Node Js. I
+            developed my experience in the IT world at Henry's bootcamp, where I
+            have carried out different projects, individually and as a team! In
+            addition, he generated solid and important soft skills during his 12
+            years of experience as an Industrial Engineer where he led work
+            teams, developing people in soft skills such as communication,
+            feedback, inclusion, diversity, teamwork and continuous improvement.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let´s talk

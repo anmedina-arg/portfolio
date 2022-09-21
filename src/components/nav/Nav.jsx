@@ -39,6 +39,13 @@ function Nav() {
         <RiMacbookLine />
       </a>
       <a
+        href="#recomendations"
+        onClick={() => setActive("#recomendations")}
+        className={active === "#recomendations" ? "active" : ""}
+      >
+        <RiMacbookLine />
+      </a>
+      <a
         href="#contact"
         onClick={() => setActive("#contact")}
         className={active === "#contact" ? "active" : ""}
