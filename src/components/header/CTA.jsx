@@ -1,5 +1,5 @@
 import React from "react";
-import CV from "../../assets/Andrés_Medina_Fullstack.pdf";
+import CV from "../../assets/Andres Medina Fullstack-dev-eng.pdf";
 
 function CTA() {
   return (

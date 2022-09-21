@@ -43,8 +43,8 @@ function About() {
             Full Stack Developer with main stack JavaScript and Node Js. I
             developed my experience in the IT world at Henry's bootcamp, where I
             have carried out different projects, individually and as a team! In
-            addition, he generated solid and important soft skills during his 12
-            years of experience as an Industrial Engineer where he led work
+            addition, I generated solid and important soft skills during his 12
+            years of experience as an Industrial Engineer where I led work
             teams, developing people in soft skills such as communication,
             feedback, inclusion, diversity, teamwork and continuous improvement.
           </p>
