@@ -16,8 +16,8 @@ const projects = [
     github: "http://github.com",
     demo: "https://www.youtube.com/watch?v=2mivlbmIUsA&t=6s",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime esse amet dignissimos qui, il",
-    skill: ["React"],
+      "An individual project for Henry's bootcamp. It is a SPA in which requests are made to an external API, but you can also generate and add your own tourist activities for one or more countries. In this SPA, filters, searches, CRUD, paging and relations between tourist activities and one or more countries are carried out",
+    skill: ["Javascript", "React", "Redux", "SQL - Postgres"],
   },
   {
     id: 2,
@@ -27,7 +27,7 @@ const projects = [
     //demo: "https://github.com/Nikl4auss/henry-final-project",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime esse amet dignissimos qui, il",
-    skill: ["React"],
+    skill: ["React", "JS", "A", "B"],
   },
   {
     id: 3,
@@ -57,9 +57,12 @@ function Portfolio() {
         {projects.map(
           ({ id, image, title, github, demo, description, skill }) => {
             let skillArr = [];
-            for (let i = 0; i < { skill }.length; i++) {
+            for (let i = 0; i < skill.length; i++) {
+              console.log(skill.length);
               skillArr.push(skill[i]);
+              //return skillArr;
             }
+            console.log(skillArr);
             return (
               <article key={id} className="portfolio__item">
                 <div className="portfolio__item-image">
@@ -67,7 +70,12 @@ function Portfolio() {
                 </div>
                 <h3>{title}</h3>
                 <p>{description}</p>
-                <ul>{skillArr}</ul>
+                <ul>
+                  {skillArr.map((e) => {
+                    return <li>{e}</li>;
+                  })}
+                  {/* <li>{skillArr}</li> */}
+                </ul>
                 {/* en los tag <a> poner la url de los proyectos de github */}
                 <div className="portfolio__item-cta">
                   <a
