@@ -27,7 +27,15 @@ const projects = [
     //demo: "https://github.com/Nikl4auss/henry-final-project",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime esse amet dignissimos qui, il",
-    skill: ["React", "JS", "A", "B"],
+    skill: [
+      "Javascript",
+      "React",
+      "Redux",
+      "SQL - Postgres",
+      "Auth0",
+      "Meilgun",
+      "Pasarela de pago MELI",
+    ],
   },
   {
     id: 3,
@@ -37,7 +45,7 @@ const projects = [
     //demo: "http://dribbble.com/Alien_pixels",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime esse amet dignissimos qui, il",
-    skill: ["React"],
+    skill: ["Responsive", "React", "CSS", "MailJS", "SwiperJS"],
   },
   // {
   //   id: 4,
@@ -60,7 +68,6 @@ function Portfolio() {
             for (let i = 0; i < skill.length; i++) {
               console.log(skill.length);
               skillArr.push(skill[i]);
-              //return skillArr;
             }
             console.log(skillArr);
             return (
@@ -74,7 +81,6 @@ function Portfolio() {
                   {skillArr.map((e) => {
                     return <li>{e}</li>;
                   })}
-                  {/* <li>{skillArr}</li> */}
                 </ul>
                 {/* en los tag <a> poner la url de los proyectos de github */}
                 <div className="portfolio__item-cta">
