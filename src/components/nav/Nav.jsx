@@ -2,8 +2,10 @@ import React, { useState } from "react";
 import "./nav.css";
 import { HiOutlineHome } from "react-icons/hi";
 import { AiOutlineUser } from "react-icons/ai";
-import { BiBookAlt, BiMessageSquareDetail } from "react-icons/bi";
-import { RiMacbookLine, RiServiceLine } from "react-icons/ri";
+import { BiMessageRoundedEdit } from "react-icons/bi";
+import { GiSkills } from "react-icons/gi";
+import { ImFolderOpen } from "react-icons/im";
+import { FaUserFriends } from "react-icons/fa";
 
 function Nav() {
   let [active, setActive] = useState();
@@ -29,28 +31,28 @@ function Nav() {
         onClick={() => setActive("#experience")}
         className={active === "#experience" ? "active" : ""}
       >
-        <BiBookAlt />
+        <GiSkills />
       </a>
       <a
         href="#portfolio"
         onClick={() => setActive("#portfolio")}
         className={active === "#portfolio" ? "active" : ""}
       >
-        <RiMacbookLine />
+        <ImFolderOpen />
       </a>
       <a
         href="#recomendations"
         onClick={() => setActive("#recomendations")}
         className={active === "#recomendations" ? "active" : ""}
       >
-        <RiMacbookLine />
+        <FaUserFriends />
       </a>
       <a
         href="#contact"
         onClick={() => setActive("#contact")}
         className={active === "#contact" ? "active" : ""}
       >
-        <BiMessageSquareDetail />
+        <BiMessageRoundedEdit />
       </a>
     </nav>
   );

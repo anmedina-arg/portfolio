@@ -31,11 +31,11 @@ function About() {
               </a>
               <small>3 Complete</small>
             </article>
-            <article className="about__card">
+            {/* <article className="about__card">
               <VscFolderLibrary className="about__icon" />
               <h5>Testing</h5>
               <small>to test</small>
-            </article>
+            </article> */}
           </div>
           <p>
             I am a proactive and responsible person. I like new challenges,
