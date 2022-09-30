@@ -16,7 +16,7 @@ const projects = [
     github: "http://github.com",
     demo: "https://www.youtube.com/watch?v=2mivlbmIUsA&t=6s",
     description:
-      "An individual project for Henry's bootcamp. It is a SPA in which requests are made to an external API, but you can also generate and add your own tourist activities for one or more countries. In this SPA, filters, searches, CRUD, paging and relations between tourist activities and one or more countries are carried out",
+      "NOT RESPONSIVE YET. An individual project for Henry's bootcamp. It is a SPA in which requests are made to an external API, but you can also generate and add your own tourist activities for one or more countries. In this SPA, filters, searches, CRUD, paging and relations between tourist activities and one or more countries are carried out",
     skill: ["Javascript", "React", "Redux", "SQL - Postgres"],
   },
   {
@@ -26,11 +26,13 @@ const projects = [
     github: "https://github.com/Nikl4auss/henry-final-project",
     //demo: "https://github.com/Nikl4auss/henry-final-project",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime esse amet dignissimos qui, il",
+      "NOT RESPONSIVE YET. The project is an e-commerce of sports shoes. Developed as a team to present at Henry's bootcamp. This project has user administration, different functionalities depending on the profile. In the administrator profile you can control and create stock, manage orders and manage registered users. The shopping cart is managed with Local Storege, you can leave the page and then resume the purchase from your cart without losing the addition! The SPA has a search bar, filters by products according to their stock, registration with Google, MeLi payment gateway and sends emails to the user with the status of their order, among other features. In addition to strengthening our technical knowledge, we have lived the experience of working as a team! with agile methodologies, organization of tasks in Trello and versioning in Github. Really great teamwork!. The technology used: Javascript | react | React-Redux | Pure CSS (modules) | Express | Node | SQL | Sequelize | Auth0 | Mailgun | MeLi payment gateway",
     skill: [
       "Javascript",
       "React",
       "Redux",
+      "CSS 3",
+      "Node - Express",
       "SQL - Postgres",
       "Auth0",
       "Meilgun",
@@ -44,8 +46,8 @@ const projects = [
     github: "https://github.com/anmedina-arg/portfolio",
     //demo: "http://dribbble.com/Alien_pixels",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime esse amet dignissimos qui, il",
-    skill: ["Responsive", "React", "CSS", "MailJS", "SwiperJS"],
+      "RESPONSIVE DESIGN. This is my personal portfolio, developed 100% in React with Javascript and CSS.In it I have implemented different libraries such as: SwiperJS and EmailJS.You are browsing this project!",
+    skill: ["Media Queries - Responsive", "React", "CSS", "EmailJS", "SwiperJS"],
   },
   // {
   //   id: 4,
