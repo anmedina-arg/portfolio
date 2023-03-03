@@ -35,8 +35,8 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
-  /* background-color: var(--color-bg); */
-  background: linear-gradient(180deg, var(--color-bg-transition-one), var(--color-bg-transition-two));
+  background-color: var(--color-bg);
+  /* background: linear-gradient(180deg, var(--color-bg-transition-one), var(--color-bg-transition-two)); */
   color: var(--color-white);
 }
 
