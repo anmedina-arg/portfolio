@@ -3,6 +3,11 @@ import "./portfolio.css";
 import PICountry from "../../assets/PI-Country.jpg";
 import Ecommerce from "../../assets/Ecommerce.jpg";
 import MyPortfolio from "../../assets/Portfolio.jpg";
+import Coolco from '../../assets/Coolco.jpg';
+import Gallery from '../../assets/The-gallery.jpg';
+import Cats from '../../assets/Cats-and-dog.jpg';
+import Apes from '../../assets/Apes.jpg';
+import { Marquee } from "../marquee/marquee";
 
 //vamos a tener los proyectos en un array de objetos, donde cada objeto va a ser un projecto
 //esto es para tener limpieza en el código
@@ -49,13 +54,46 @@ const projects = [
       "RESPONSIVE DESIGN. This is my personal portfolio, developed 100% in React with Javascript and CSS.In it I have implemented different libraries such as: SwiperJS and EmailJS.You are browsing this project!",
     skill: ["Media Queries - Responsive", "React", "CSS", "EmailJS", "SwiperJS"],
   },
-  // {
-  //   id: 4,
-  //   image: PICountry,
-  //   title: "fourth project",
-  //   github: "http://github.com",
-  //   demo: "http://dribbble.com/Alien_pixels",
-  // },
+  {
+      id: 4,
+      image: Coolco,
+      title: "Coolco",
+      github: "http://github.com",
+      demo: "https://www.coolco.io/",
+    description:
+      "TO COMPLETE... building in progress...",
+    skill: ["Media Queries - Responsive", "React", "CSS", "EmailJS", "SwiperJS"],
+  },
+  {
+      id: 5,
+      image: Gallery,
+      title: "The Gallery",
+      github: "http://github.com",
+      demo: "https://www.thegallery.live/",
+    description:
+      "TO COMPLETE... building in progress...",
+    skill: ["Media Queries - Responsive", "React", "CSS", "EmailJS", "SwiperJS"],
+  },
+  {
+      id: 6,
+      image: Cats,
+      title: "Cats and dogs",
+      github: "http://github.com",
+      demo: "https://www.catsanddogs.io/",
+    description:
+      "TO COMPLETE... building in progress...",
+    skill: ["Media Queries - Responsive", "React", "CSS", "EmailJS", "SwiperJS"],
+  },
+  {
+      id: 7,
+      image: Apes,
+      title: "Apes International",
+      github: "http://github.com",
+      demo: "https://www.apesgroup.net/",
+    description:
+      "TO COMPLETE... building in progress...",
+    skill: ["Media Queries - Responsive", "React", "CSS", "EmailJS", "SwiperJS"],
+  },
 ];
 
 function Portfolio() {
@@ -63,6 +101,7 @@ function Portfolio() {
     <section id="portfolio">
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
+      <Marquee/>
       <div className="container portfolio__container">
         {projects.map(
           ({ id, image, title, github, demo, description, skill }) => {
@@ -108,6 +147,7 @@ function Portfolio() {
           }
         )}
       </div>
+      <Marquee/>
     </section>
   );
 }

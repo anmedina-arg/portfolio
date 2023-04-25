@@ -4,9 +4,11 @@ import ME from "../../assets/me.jpeg";
 import { TbAward } from "react-icons/tb";
 import { VscFolderLibrary } from "react-icons/vsc";
 
+
 function About() {
   return (
     <section id="about">
+      
       <h5>Get to know</h5>
       <h2>About Me</h2>
       <div className="container about__container">
