@@ -36,3 +36,26 @@
       transform: translate3d(var(--move-final), 0, 0);
     }
   }
+
+  /* ==================== MEDIA QUERIES (MEDIUM DEVICES) ============== */
+
+@media screen and (max-width: 1024px) {
+  .text {
+    color: rgb(255, 79, 20);
+    font-size: 2rem; 
+    text-transform: uppercase;
+    height: 82px;
+    width: 120vw;
+  }  
+}
+/* ==================== MEDIA QUERIES (SMALL DEVICES) ============== */
+
+@media screen and (max-width: 600px) {
+  .text {
+    color: rgb(255, 79, 20);
+    font-size: 3rem; 
+    text-transform: uppercase;
+    height: 82px;
+    width: 120vw;
+  }  
+} ;

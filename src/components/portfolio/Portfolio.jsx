@@ -8,6 +8,7 @@ import Gallery from '../../assets/The-gallery.jpg';
 import Cats from '../../assets/Cats-and-dog.jpg';
 import Apes from '../../assets/Apes.jpg';
 import { Marquee } from "../marquee/marquee";
+import Card from "../ui/cards/Card";
 
 //vamos a tener los proyectos en un array de objetos, donde cada objeto va a ser un projecto
 //esto es para tener limpieza en el código
@@ -15,17 +16,47 @@ import { Marquee } from "../marquee/marquee";
 
 const projects = [
   {
-    id: 1,
-    image: PICountry,
-    title: "Individual Proyect - Countries Henry",
-    github: "http://github.com",
-    demo: "https://www.youtube.com/watch?v=2mivlbmIUsA&t=6s",
+      id: 24,
+      image: Coolco,
+      title: "Coolco",
+      github: "http://github.com",
+      demo: "https://www.coolco.io/",
     description:
-      "NOT RESPONSIVE YET. An individual project for Henry's bootcamp. It is a SPA in which requests are made to an external API, but you can also generate and add your own tourist activities for one or more countries. In this SPA, filters, searches, CRUD, paging and relations between tourist activities and one or more countries are carried out",
-    skill: ["Javascript", "React", "Redux", "SQL - Postgres"],
+      "TO COMPLETE... building in progress...",
+    skill: ["Media Queries - Responsive", "React", "CSS", "EmailJS", "SwiperJS"],
   },
   {
-    id: 2,
+      id: 27,
+      image: Apes,
+      title: "Apes International",
+      github: "http://github.com",
+      demo: "https://www.apesgroup.net/",
+    description:
+      "TO COMPLETE... building in progress...",
+    skill: ["Media Queries - Responsive", "React", "CSS", "EmailJS", "SwiperJS"],
+  },
+  {
+      id: 25,
+      image: Gallery,
+      title: "The Gallery",
+      github: "http://github.com",
+      demo: "https://www.thegallery.live/",
+    description:
+      "TO COMPLETE... building in progress...",
+    skill: ["Media Queries - Responsive", "React", "CSS", "EmailJS", "SwiperJS"],
+  },
+   {
+      id: 26,
+      image: Cats,
+      title: "Cats and dogs",
+      github: "http://github.com",
+      demo: "https://www.catsanddogs.io/",
+    description:
+      "TO COMPLETE... building in progress...",
+    skill: ["Media Queries - Responsive", "React", "CSS", "EmailJS", "SwiperJS"],
+  },
+  {
+    id: 22,
     image: Ecommerce,
     title: "Team Project - E-commerce Davo´s shoes",
     github: "https://github.com/Nikl4auss/henry-final-project",
@@ -45,7 +76,17 @@ const projects = [
     ],
   },
   {
-    id: 3,
+    id: 21,
+    image: PICountry,
+    title: "Individual Proyect - Countries Henry",
+    github: "http://github.com",
+    demo: "https://www.youtube.com/watch?v=2mivlbmIUsA&t=6s",
+    description:
+      "NOT RESPONSIVE YET. An individual project for Henry's bootcamp. It is a SPA in which requests are made to an external API, but you can also generate and add your own tourist activities for one or more countries. In this SPA, filters, searches, CRUD, paging and relations between tourist activities and one or more countries are carried out",
+    skill: ["Javascript", "React", "Redux", "SQL - Postgres"],
+  },
+  {
+    id: 23,
     image: MyPortfolio,
     title: "My Portfolio",
     github: "https://github.com/anmedina-arg/portfolio",
@@ -53,47 +94,7 @@ const projects = [
     description:
       "RESPONSIVE DESIGN. This is my personal portfolio, developed 100% in React with Javascript and CSS.In it I have implemented different libraries such as: SwiperJS and EmailJS.You are browsing this project!",
     skill: ["Media Queries - Responsive", "React", "CSS", "EmailJS", "SwiperJS"],
-  },
-  {
-      id: 4,
-      image: Coolco,
-      title: "Coolco",
-      github: "http://github.com",
-      demo: "https://www.coolco.io/",
-    description:
-      "TO COMPLETE... building in progress...",
-    skill: ["Media Queries - Responsive", "React", "CSS", "EmailJS", "SwiperJS"],
-  },
-  {
-      id: 5,
-      image: Gallery,
-      title: "The Gallery",
-      github: "http://github.com",
-      demo: "https://www.thegallery.live/",
-    description:
-      "TO COMPLETE... building in progress...",
-    skill: ["Media Queries - Responsive", "React", "CSS", "EmailJS", "SwiperJS"],
-  },
-  {
-      id: 6,
-      image: Cats,
-      title: "Cats and dogs",
-      github: "http://github.com",
-      demo: "https://www.catsanddogs.io/",
-    description:
-      "TO COMPLETE... building in progress...",
-    skill: ["Media Queries - Responsive", "React", "CSS", "EmailJS", "SwiperJS"],
-  },
-  {
-      id: 7,
-      image: Apes,
-      title: "Apes International",
-      github: "http://github.com",
-      demo: "https://www.apesgroup.net/",
-    description:
-      "TO COMPLETE... building in progress...",
-    skill: ["Media Queries - Responsive", "React", "CSS", "EmailJS", "SwiperJS"],
-  },
+  }, 
 ];
 
 function Portfolio() {
@@ -107,42 +108,10 @@ function Portfolio() {
           ({ id, image, title, github, demo, description, skill }) => {
             let skillArr = [];
             for (let i = 0; i < skill.length; i++) {
-              console.log(skill.length);
               skillArr.push(skill[i]);
             }
-            console.log(skillArr);
             return (
-              <article key={id} className="portfolio__item">
-                <div className="portfolio__item-image">
-                  <img src={image} alt={title} />
-                </div>
-                <h3>{title}</h3>
-                <p>{description}</p>
-                <ul>
-                  {skillArr.map((e) => {
-                    return <li>{e}</li>;
-                  })}
-                </ul>
-                {/* en los tag <a> poner la url de los proyectos de github */}
-                <div className="portfolio__item-cta">
-                  <a
-                    href={github}
-                    className="btn"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Github
-                  </a>
-                  <a
-                    href={demo}
-                    className="btn btn-primary"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Demo
-                  </a>
-                </div>
-              </article>
+              <Card id={id} image={image} title={title} github={github} demo={demo} description={description} skillArr={skillArr} />
             );
           }
         )}

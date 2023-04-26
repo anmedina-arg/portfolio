@@ -1,12 +1,11 @@
 import React from "react";
 import CV from "../../assets/Andres Medina Fullstack-dev-eng.pdf";
+import Button from "../ui/buttons/Button";
 
 function CTA() {
   return (
     <div className="cta">
-      <a href={CV} download className="btn">
-        Download CV
-      </a>
+      <Button reference={CV} text='Download CV'/>
       <a href="#contact" className="btn btn-primary">
         Let´s talk
       </a>
