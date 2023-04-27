@@ -39,10 +39,10 @@ import './marquee.css';
 export const Marquee = () => (
   <div className="container__marquee">
     <div className="marquee" aria-hidden="true">
-      <span className='text'>en produccion</span>
-      <span className='text'>en produccion</span>
-      <span className='text'>en produccion</span>      
-      <span className='text'>en produccion</span>      
+      <span className='text'>en construccion</span>
+      <span className='text'>en construccion</span>
+      <span className='text'>en construccion</span>      
+      <span className='text'>en construccion</span>      
     </div>   
   </div>
 );

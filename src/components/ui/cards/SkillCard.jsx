@@ -1,8 +1,9 @@
 import styles from './card.module.css';
 
-const SkillCard = (prop) => {
-  let { skill } = prop;
+const SkillCard = ({skill}) => {
+  // let { skill } = prop;
   let { id, icon, name, level } = skill;
+  console.log(skill)
   return (
     <article className={styles.experience__details} key={id}>
       {icon}
