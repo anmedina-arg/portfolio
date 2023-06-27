@@ -9,7 +9,7 @@ import "swiper/css/navigation";
 
 import GABY from "../../assets/gaby.jpeg";
 import CATA from "../../assets/Cata.png";
-import NICO from "../../assets/Nico.jpg";
+import NICO from "../../assets/Nico.webp";
 import ADRIAN from "../../assets/Adrian.jpeg";
 import GIAN from "../../assets/Gian.jpg";
 
