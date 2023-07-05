@@ -2,7 +2,7 @@ import React from "react";
 import "./portfolio.css";
 import PICountry from "../../assets/PI-Country.webp";
 import Ecommerce from "../../assets/Ecommerce.webp";
-import MyPortfolio from "../../assets/Portfolio.webp";
+//import MyPortfolio from "../../assets/Portfolio.webp";
 import Coolco from "../../assets/Coolco.webp";
 import Gallery from "../../assets/The-gallery.webp";
 import Cats from "../../assets/Cats-and-dog.webp";
@@ -21,19 +21,30 @@ import Card from "../ui/cards/Card";
 
 const projects = [
   {
+    id: 12,
+    image: Orderix,
+    title: "Orderix",
+    github: "https://github.com",
+    demo: "https://orderix.co/",
+    description: "",
+    skill: [
+      "Typescript",
+      "Next",
+      "React",
+      "Tailwind",
+      "NodeJS",
+      "Prisma",
+      "SQL",
+    ],
+  },
+  {
     id: 24,
     image: Coolco,
     title: "Coolco",
     github: "http://github.com",
     demo: "https://www.coolco.io/",
-    description: "TO COMPLETE... building in progress...",
-    skill: [
-      "Media Queries - Responsive",
-      "React",
-      "CSS",
-      "EmailJS",
-      "SwiperJS",
-    ],
+    description: "Buy a ticket, and get an NFT's gift",
+    skill: ["Typescript", "NextJS", "React", "Styled-components"],
   },
   {
     id: 27,
@@ -42,13 +53,7 @@ const projects = [
     github: "http://github.com",
     demo: "https://www.apesgroup.net/",
     description: "TO COMPLETE... building in progress...",
-    skill: [
-      "Media Queries - Responsive",
-      "React",
-      "CSS",
-      "EmailJS",
-      "SwiperJS",
-    ],
+    skill: ["Typescript", "NextJS", "React", "Styled-components"],
   },
   {
     id: 25,
@@ -57,13 +62,7 @@ const projects = [
     github: "http://github.com",
     demo: "https://www.thegallery.live/",
     description: "TO COMPLETE... building in progress...",
-    skill: [
-      "Media Queries - Responsive",
-      "React",
-      "CSS",
-      "EmailJS",
-      "SwiperJS",
-    ],
+    skill: ["Typescript", "React", "Styled-components"],
   },
   {
     id: 26,
@@ -72,13 +71,7 @@ const projects = [
     github: "http://github.com",
     demo: "https://www.catsanddogs.io/",
     description: "TO COMPLETE... building in progress...",
-    skill: [
-      "Media Queries - Responsive",
-      "React",
-      "CSS",
-      "EmailJS",
-      "SwiperJS",
-    ],
+    skill: ["Typescript", "React", "Material UI"],
   },
   {
     id: 22,
@@ -110,75 +103,66 @@ const projects = [
       "NOT RESPONSIVE YET. An individual project for Henry's bootcamp. It is a SPA in which requests are made to an external API, but you can also generate and add your own tourist activities for one or more countries. In this SPA, filters, searches, CRUD, paging and relations between tourist activities and one or more countries are carried out",
     skill: ["Javascript", "React", "Redux", "SQL - Postgres"],
   },
-  {
-    id: 23,
-    image: MyPortfolio,
-    title: "My Portfolio",
-    github: "https://github.com/anmedina-arg/portfolio",
-    //demo: "http://dribbble.com/Alien_pixels",
-    description:
-      "RESPONSIVE DESIGN. This is my personal portfolio, developed 100% in React with Javascript and CSS.In it I have implemented different libraries such as: SwiperJS and EmailJS.You are browsing this project!",
-    skill: [
-      "Media Queries - Responsive",
-      "React",
-      "CSS",
-      "EmailJS",
-      "SwiperJS",
-    ],
-  },
+  // {
+  //   id: 23,
+  //   image: MyPortfolio,
+  //   title: "My Portfolio",
+  //   github: "https://github.com/anmedina-arg/portfolio",
+  //   //demo: "http://dribbble.com/Alien_pixels",
+  //   description:
+  //     "RESPONSIVE DESIGN. This is my personal portfolio, developed 100% in React with Javascript and CSS.In it I have implemented different libraries such as: SwiperJS and EmailJS.You are browsing this project!",
+  //   skill: [
+  //     "Media Queries - Responsive",
+  //     "React",
+  //     "CSS",
+  //     "EmailJS",
+  //     "SwiperJS",
+  //   ],
+  // },
   {
     id: 7,
     image: Memory,
     title: "Memory card game",
-    github: "",
+    github: "https://github.com/anmedina-arg/memory-card-game",
     demo: "https://anmedina-arg.github.io/memory-card-game/",
     description: "",
-    skill: ["Javascript"],
+    skill: ["Javascript vanilla", "CSS modules"],
   },
   {
     id: 8,
     image: Tateti,
     title: "tic tac toe",
-    github: "",
+    github: "https://github.com/anmedina-arg/ta-te-ti-next",
     demo: "https://ta-te-ti-anmedina-arg.vercel.app/",
     description: "",
-    skill: ["Javascript"],
+    skill: ["Typescript", "Next", "React", "Tailwind"],
   },
   {
     id: 9,
     image: Sudoku,
     title: "Sudoku",
-    github: "",
+    github: "https://github.com/anmedina-arg/sudoku-game-nextjs",
     demo: "https://sudoku-game-nextjs.vercel.app/",
     description: "",
-    skill: ["Javascript"],
+    skill: ["Typescript", "Next", "React", "Tailwind"],
   },
   {
     id: 10,
     image: Pelis,
     title: "buscador de peliculas",
-    github: "",
+    github: "https://github.com/anmedina-arg/buscador-de-peliculas-vite",
     demo: "https://6481e3d5c714880092eaaac7--fantastic-daffodil-aada43.netlify.app/",
     description: "",
-    skill: ["Javascript"],
+    skill: ["Javascript", "React"],
   },
   {
     id: 11,
     image: Todo,
     title: "to do app",
-    github: "",
+    github: "https://github.com/anmedina-arg/to-do-app-next",
     demo: "https://to-do-app-next.vercel.app/",
     description: "",
-    skill: ["Javascript"],
-  },
-  {
-    id: 12,
-    image: Orderix,
-    title: "orderix",
-    github: "",
-    demo: "https://orderix.co/",
-    description: "",
-    skill: ["Javascript"],
+    skill: ["Typescript", "Next", "React", "Tailwind"],
   },
 ];
 function Portfolio() {
