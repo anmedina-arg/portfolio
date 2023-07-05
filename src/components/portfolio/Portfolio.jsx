@@ -13,7 +13,6 @@ import Sudoku from "../../assets/sudoku.png";
 import Pelis from "../../assets/buscador_peliculas.png";
 import Todo from "../../assets/todoapp.png";
 import Orderix from "../../assets/Orderix.png";
-import { Marquee } from "../marquee/marquee";
 import Card from "../ui/cards/Card";
 
 //vamos a tener los proyectos en un array de objetos, donde cada objeto va a ser un projecto
@@ -187,7 +186,6 @@ function Portfolio() {
     <section id="portfolio">
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
-      <Marquee />
       <div className="container portfolio__container">
         {projects.map(
           ({ id, image, title, github, demo, description, skill }) => {
@@ -209,7 +207,6 @@ function Portfolio() {
           }
         )}
       </div>
-      <Marquee />
     </section>
   );
 }
