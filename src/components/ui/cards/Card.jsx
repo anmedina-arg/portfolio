@@ -24,7 +24,7 @@ const Card = ({ id, image, title, github, demo, description, skillArr }) => {
           </div>
           <div>
             <a href={demo} className="btn" target="_blank" rel="noreferrer">
-              Demo
+              Link
             </a>
           </div>
         </div>
