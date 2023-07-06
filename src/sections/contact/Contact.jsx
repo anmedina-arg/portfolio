@@ -23,13 +23,21 @@ function Contact() {
           </article>
           <article className="contact__option">
             <h4>LinkedIn</h4>
-            <a href="https://linkedin.com" target="_blank" rel="noreferrer">
+            <a
+              href="https://www.linkedin.com/in/andres-medina-arg/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <BsLinkedin />
             </a>
           </article>
           <article className="contact__option">
             <h4>Github</h4>
-            <a href="https://github.com" target="_blank" rel="noreferrer">
+            <a
+              href="https://github.com/anmedina-arg"
+              target="_blank"
+              rel="noreferrer"
+            >
               <BsGithub />
             </a>
           </article>
