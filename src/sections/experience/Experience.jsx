@@ -15,20 +15,32 @@ import {
   SiMongodb,
 } from "react-icons/si";
 import { BsFillPatchCheckFill } from "react-icons/bs";
-import SkillCard from "../ui/cards/SkillCard";
+import SkillCard from "../../components/cards/SkillCard";
 
 const FRONTEND_SKIL = [
   {
-    id: "FES1",
-    name: "HTML",
+    id: "FES4",
+    name: "NextJS",
     level: "Intermediate",
-    icon: <SiHtml5 />,
+    icon: <SiNextdotjs />,
   },
   {
-    id: "FES2",
-    name: "CSS",
+    id: "FES4",
+    name: "React",
     level: "Intermediate",
-    icon: <SiCss3 />,
+    icon: <SiReact />,
+  },
+  {
+    id: "FES3",
+    name: "Typescript",
+    level: "Intermediate",
+    icon: <SiTypescript />,
+  },
+  {
+    id: "FES3",
+    name: "Javascript",
+    level: "Intermediate",
+    icon: <SiJavascript />,
   },
   {
     id: "FES2",
@@ -43,28 +55,16 @@ const FRONTEND_SKIL = [
     icon: <SiStyledcomponents />,
   },
   {
-    id: "FES3",
-    name: "Javascript",
+    id: "FES2",
+    name: "CSS",
     level: "Intermediate",
-    icon: <SiJavascript />,
+    icon: <SiCss3 />,
   },
   {
-    id: "FES3",
-    name: "Typescript",
+    id: "FES1",
+    name: "HTML",
     level: "Intermediate",
-    icon: <SiTypescript />,
-  },
-  {
-    id: "FES4",
-    name: "React",
-    level: "Intermediate",
-    icon: <SiReact />,
-  },
-  {
-    id: "FES4",
-    name: "NextJS",
-    level: "Intermediate",
-    icon: <SiNextdotjs />,
+    icon: <SiHtml5 />,
   },
 ];
 

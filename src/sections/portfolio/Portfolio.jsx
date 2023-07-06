@@ -13,7 +13,7 @@ import Sudoku from "../../assets/sudoku.png";
 import Pelis from "../../assets/buscador_peliculas.png";
 import Todo from "../../assets/todoapp.png";
 import Orderix from "../../assets/Orderix.png";
-import Card from "../ui/cards/Card";
+import Card from "../../components/cards/Card";
 
 //vamos a tener los proyectos en un array de objetos, donde cada objeto va a ser un projecto
 //esto es para tener limpieza en el código
@@ -170,6 +170,10 @@ function Portfolio() {
     <section id="portfolio">
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
+      <h5>
+        Some projects have a private repository, so you will be directed to my
+        GitHub
+      </h5>
       <div className="container portfolio__container">
         {projects.map(
           ({ id, image, title, github, demo, description, skill }) => {

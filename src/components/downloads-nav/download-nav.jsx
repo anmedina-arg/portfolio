@@ -2,17 +2,16 @@ import React from "react";
 import CVENG from "../../assets/CV_Andres_Medina_eng.pdf";
 import CVESP from "../../assets/CV_Andres_Medina_esp.pdf";
 import Button from "../ui/buttons/Button";
+import "./download-nav.css";
 
-function CTA() {
+function DownloadNav() {
   return (
-    <div className="cta">
+    <div className="download_nav_container">
       <Button reference={CVENG} text="Download CV" />
       <Button reference={CVESP} text="Descargar CV" />
-      <a href="#contact" className="btn btn-primary">
-        Let´s talk
-      </a>
+      <Button primary reference="#contact" text="Let´s talk" />
     </div>
   );
 }
 
-export default CTA;
+export default DownloadNav;

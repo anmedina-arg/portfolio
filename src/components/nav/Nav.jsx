@@ -20,13 +20,6 @@ function Nav() {
         <HiOutlineHome />
       </a>
       <a
-        href="#about"
-        onClick={() => setActive("#about")}
-        className={active === "#about" ? "active" : ""}
-      >
-        <AiOutlineUser />
-      </a>
-      <a
         href="#experience"
         onClick={() => setActive("#experience")}
         className={active === "#experience" ? "active" : ""}

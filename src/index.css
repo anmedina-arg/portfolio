@@ -38,10 +38,6 @@ html {
 body {
   font-family: "Poppins", sans-serif;
   background-color: var(--color-bg);
-  /* background-image: url('../src/assets/hhhorizon.svg');
-  background-repeat: no-repeat;
-  background-size: fill; */
-  /* background: linear-gradient(180deg, var(--color-bg-transition-one), var(--color-bg-transition-two)); */
   color: var(--color-white);
 }
 
@@ -63,7 +59,7 @@ h1 {
 }
 
 section {
-  margin-top: 8rem;
+  padding-top: 4rem;
 }
 
 section > h2,
@@ -137,4 +133,4 @@ img {
   .section > h2 {
     margin-bottom: 2rem;
   }
-} ;
+}
