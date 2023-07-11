@@ -17,15 +17,18 @@ function Home() {
           <div className="about__text">
             <h3 className="about__me">About me</h3>
             <p>
-              I am a proactive and responsible person. I like new challenges,
-              research, study and learn new things. This has led me to train as
-              a Full-Stack Developer with main stack JavaScript and NodeJS. I
-              developed my experience in the IT world at Henry's bootcamp, where
-              I have carried out different projects, individually and as a team!
-              In addition, I generated solid and important soft skills during
-              his 12 years of experience as an Industrial Engineer where I led
-              work teams, developing people in soft skills such as
-              communication, feedback, inclusion, diversity, teamwork and
+              As an Industrial Engineer with 12 years of experience leading
+              teams and developing critical soft skills, I've made a unique
+              career transition into the world of Information Technology. I am
+              both proactive and responsible, continually seeking out new
+              challenges, eagerly diving into research, and always keen on
+              learning. My interests and drive have led me to train as a
+              Full-Stack Developer, specializing in JavaScript and NodeJS. I
+              started this exciting journey at Henry's Bootcamp, where I
+              successfully executed various projects both individually and
+              collaboratively. The journey has been one of continuous growth,
+              including strengthening crucial soft skills like communication,
+              feedback, diversity, inclusion, teamwork, and a focus on
               continuous improvement.
             </p>
           </div>
