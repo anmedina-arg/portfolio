@@ -2,11 +2,13 @@ import React from "react";
 import "./home.css";
 import DownloadNav from "../../components/downloads-nav/download-nav";
 import ME from "../../assets/me-sin-fondo.png";
+import { Section } from "../../components/layout/section";
+import { Paragraph } from "../../components/commons/paragraph/paragraph.jsx";
 
 function Home() {
   return (
     <header>
-      <div className="container container__header">
+      <Section>
         <div className="title__container">
           <h5>Hello I´m</h5>
           <h1>Andrés Medina</h1>
@@ -16,7 +18,7 @@ function Home() {
         <div className="about">
           <div className="about__text">
             <h3 className="about__me">About me</h3>
-            <p>
+            <Paragraph>
               As an Industrial Engineer with 12 years of experience leading
               teams and developing critical soft skills, I've made a unique
               career transition into the world of Information Technology. I am
@@ -30,13 +32,13 @@ function Home() {
               including strengthening crucial soft skills like communication,
               feedback, diversity, inclusion, teamwork, and a focus on
               continuous improvement.
-            </p>
+            </Paragraph>
           </div>
           <div className="me">
             <img className="picture" src={ME} alt="me" />
           </div>
         </div>
-      </div>
+      </Section>
     </header>
   );
 }

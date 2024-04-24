@@ -36,10 +36,10 @@
   color: var(--color-light);
 }
 
-.about__text p {
+/* .about__text p {
   text-align: justify;
   line-height: 1.5;
-}
+} */
 
 .about__me {
   color: white;

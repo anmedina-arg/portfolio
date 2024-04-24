@@ -11,8 +11,22 @@ import Sudoku from "../assets/sudoku.png";
 import Pelis from "../assets/buscador_peliculas.png";
 import Todo from "../assets/todoapp.png";
 import Orderix from "../assets/Orderix.png";
+import Kurve from "../assets/kurve.png"
 
 export const projects = [
+	{
+    id: 121,
+    image: Kurve,
+    title: "Kurve",
+    github: "https://github.com",
+    demo: "https://kurve.ai//",
+    description: "",
+    skill: [
+      "Typescript",
+	  "React",
+	  "CSS"
+    ],
+  },
   {
     id: 12,
     image: Orderix,
